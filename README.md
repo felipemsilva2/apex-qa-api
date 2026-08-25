@@ -1,10 +1,10 @@
-# Meu Portfólio de Testes de API & Contrato 🔌
+# Meu Portfólio de Testes de API & Contrato 
 
 Este repositório contém meus estudos práticos de automação de testes de backend e **validação de contratos** de API utilizando **Jest**, **Supertest** e **Ajv** (com TypeScript) para a plataforma **Apex**.
 
 ---
 
-## 🛠️ O que eu implementei até agora:
+## O que eu implementei até agora:
 
 * **Testes de Contrato com JSON Schema:** Defini os schemas da estrutura esperada de retorno dos dados usando a especificação JSON Schema, protegendo o frontend contra mudanças acidentais na API do backend.
 * **Teste do Endpoint de Monitoramento (`health-check.spec.ts`):** Valida se o endpoint principal de status do servidor está online e atende ao contrato de dados de saúde do sistema.
@@ -13,7 +13,7 @@ Este repositório contém meus estudos práticos de automação de testes de bac
 
 ---
 
-## 🚀 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
 ### 1. Instalar as dependências
 ```bash
@@ -30,6 +30,6 @@ API_URL=https://sua-api.com/v1 SUPABASE_ANON_KEY="sua-chave-aqui" npm test
 
 ---
 
-## 🧠 Aprendizados e Desafios:
+## Aprendizados e Desafios:
 * **Validação Estática de Erros:** Aprendi a importância de testar contratos de erro. Se o backend alterar um campo de erro de `error` para `message`, o frontend pode falhar ao exibir os alertas para o usuário.
 * **Configuração TypeScript no Jest:** Precisei configurar o `ts-jest` e ajustar o `tsconfig.json` com `esModuleInterop` para resolver a compatibilidade de importações do módulo `supertest`.
