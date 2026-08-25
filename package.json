@@ -1,0 +1,20 @@
+{
+  "name": "apex-qa-api",
+  "version": "1.0.0",
+  "description": "Estudos de testes de integração e contrato de API para o Apex",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/supertest": "^6.0.2",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
