@@ -1,4 +1,4 @@
-# Meu Portfólio de Testes de API & Contrato 
+# Testes de API & Contrato - Apex
 
 Este repositório contém meus estudos práticos de automação de testes de backend e **validação de contratos** de API utilizando **Jest**, **Supertest** e **Ajv** (com TypeScript) para a plataforma **Apex**.
 
