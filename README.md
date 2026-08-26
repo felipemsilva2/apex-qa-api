@@ -33,3 +33,5 @@ API_URL=https://sua-api.com/v1 SUPABASE_ANON_KEY="sua-chave-aqui" npm test
 ## Aprendizados e Desafios:
 * **Validação Estática de Erros:** Aprendi a importância de testar contratos de erro. Se o backend alterar um campo de erro de `error` para `message`, o frontend pode falhar ao exibir os alertas para o usuário.
 * **Configuração TypeScript no Jest:** Precisei configurar o `ts-jest` e ajustar o `tsconfig.json` com `esModuleInterop` para resolver a compatibilidade de importações do módulo `supertest`.
+
+www.apexpro.fit
